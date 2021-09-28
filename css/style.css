@@ -12,10 +12,19 @@ section{
     padding: 15px 0;
 }
 
-.box, .box-nested{
+.flex{
+    display: flex;
+}
+
+.box, .box-nested, .box-larger{
     background-color: rgb(36, 81, 204);
     border: 1px solid white;
     display: flex;
+    width: 100%;
+    
+}
+
+.box, .box-nested{
     justify-content: center;
     align-items: center;
     padding: 20px;
@@ -23,13 +32,22 @@ section{
 }
 
 .box-larger{
-    padding: 60px;
+    padding: 50px;
 }
 
 .box-nested{
     background-color: lightgreen;
     border: 1px solid black;
 }
+
+.align-items-middle{
+    align-items: center;
+}
+
+.align-items-bottom{
+    align-items: flex-end;
+}
+
 .space-around{
     justify-content: space-around;
 }

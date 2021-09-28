@@ -14,7 +14,7 @@ section{
 
 .box, .box-nested{
     background-color: rgb(36, 81, 204);
-    border: 1px solid red;
+    border: 1px solid white;
     display: flex;
     justify-content: center;
     align-items: center;
